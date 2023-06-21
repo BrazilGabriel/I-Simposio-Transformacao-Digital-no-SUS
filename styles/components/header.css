@@ -22,9 +22,9 @@
 
 .header__bars {
     color: var(--clr-dark);
-    width: var(--size-2xL);
-    height: var(--size-2xL);
     display: block;
+    min-width: var(--size-4xL);
+    min-height: var(--size-4xL);;
 }
 
 

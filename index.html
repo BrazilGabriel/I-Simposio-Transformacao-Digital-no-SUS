@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="https://www.gov.br/++theme++padrao_govbr/favicons/favicon-32x32.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>I Simpósio Transformação Digital no SUS</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
   <meta name="description" content="">
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <title>I Simpósio Transformação Digital no SUS</title>
 
 </head>
 
@@ -40,7 +41,6 @@
           <a class="header__contact btn_inline" href="#inscreva-se">Inscreva-se</a>
         </li>
       </ul>
-
       <button class="header__bars">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
           <path fill-rule="evenodd"
@@ -48,9 +48,36 @@
             clip-rule="evenodd" />
         </svg>
       </button>
-
     </nav>
+    
   </header>
+  
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <nav>
+          <ul class="mobile-nav__menu">
+            <li>
+              <a class="mobile-nav__link" href="#sobre">Sobre o evento</a>
+            </li>
+            <li>
+              <a class="mobile-nav__link" href="#local">Local</a>
+            </li>
+            <li>
+              <a class="mobile-nav__link" href="#programacao">Programação</a>
+            </li>
+            <li>
+              <a class="mobile-nav__link" href="#equipe">Equipe</a>
+            </li>
+            <li>
+              <a class="mobile-nav__link" href="#programacao">Contato</a>
+            </li>
+            <li class="mobile-nav__link-line"></li>
+            <li>
+              <a class="header__contact btn2" href="#inscreva-se">Inscreva-se</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
   <div class="hero__wrapper">
     <section class="hero container">
@@ -78,7 +105,18 @@
       <!-- <p class="hero__description animate">(TEXTO EXEMPLO) Iniciativa para fortalecer debates e ações da Secretaria de
         Informação e Saúde Digital, visando o fortalecimento e integração de sistemas de informação e o avanço na
         transformação digital da saúde a partir do Sistema Único de Saúde (SUS).</p> -->
-      <a class="hero__btn btn2 animate" href="#sobre">Saiba mais</a>
+      <div class="hero__btn--wrapper">
+        <a class="hero__btn btn2 animate" href="">Inscreva-se</a>
+      </div>
+
+      <a class="hero__scroll" href="#sobre">
+        <div class="arrow">
+          <div class="arrow-top"></div>
+          <div class="arrow-bottom"></div>
+        </div>
+      </a>
+
+
 
     </section>
   </div>
@@ -91,7 +129,9 @@
     <footer class="footer container section" id="rodape">
 
       <ul class="footer__icons">
+        <li class="footer__item"><img src="seidigi_n.png"></li>
         <li class="footer__item"><img src="governo_n.png"></li>
+
       </ul>
       <div class="footer__author"><span>Gabriel Brasil</span> &copy; 2023</div>
     </footer>
