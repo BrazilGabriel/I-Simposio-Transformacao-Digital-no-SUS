@@ -30,7 +30,7 @@ const mobileNav = () => {
         })
     });
 
-    function myFunction(x) {
+    function closeMobileMenu(x) {
         if (x.matches) { // If media query matches
             isMobileNavOpen = false;
             mobileNav.style.display = 'none';
@@ -39,8 +39,12 @@ const mobileNav = () => {
       }
       
       var x = window.matchMedia("(min-width: 768px)")
-      myFunction(x) // Call listener function at run time
-      x.addListener(myFunction) // Attach listener function on state changes
+      closeMobileMenu(x) // Call listener function at run time
+    //   x.addListener(myFunction) // Attach listener function on state changes
+      x.addEventListener("change", () => {
+        closeMobileMenu(x) ;
+      });
+      
 };
 
 export default mobileNav;

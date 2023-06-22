@@ -16,12 +16,40 @@
 /* 2xL */
 /* @media (min-width: 1536px) {} */
 
+.to-top{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--size--2xL);
+    color: var(--clr-slate600);
+    border: 2px solid var(--clr-slate600);
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s;
+}
+
+.to-top:hover{
+    color: var(--clr-orange); 
+    border: 2px solid var(--clr-orange);
+}
+.to-top.active {
+    bottom: 4rem;
+    pointer-events: auto;
+    opacity: 1;
+}
 
 .btn {
     display: inline-block;
     font-weight: 600;
     text-decoration: none;
-    background-color: var(--clr-orange600);
+    background-color: var(--clr-orange);
     color: #f1f5f9;
     padding: 0.6em 1em;
     transition: transform 0.3s, color 0.3s;
@@ -31,14 +59,14 @@
 
 .btn:hover {
     transform: translateY(-3px);
-    background-color: var(--clr-blue600);
+    background-color: var(--clr-blue);
 
 }
 
 .btn2 {
     display: inline-block;
     font-weight: 700;
-    color: var(--clr-orange600);
+    color: var(--clr-orange);
     padding: 0.7rem 2rem;
     /* border-radius: 30em; */
     border-style: none;
@@ -47,7 +75,7 @@
     overflow: hidden;
     text-decoration: none;
     background-color: var(--clr-light);
-    border: 1px solid var(--clr-orange600);
+    border: 1px solid var(--clr-orange);
     transition: transform 0.3s;
 }
 
@@ -58,7 +86,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--clr-orange600);
+    background-color: var(--clr-orange);
     transform: translateX(-101%);
     transition: all .3s ease;
     z-index: -1;
@@ -79,9 +107,9 @@
     font-weight: 700;
     font-size: var(--size-base);
     background: transparent;
-    border: 1px solid var(--clr-orange600);
+    border: 1px solid var(--clr-orange);
     padding: 1em 1.5em;
-    color: var(--clr-orange600);
+    color: var(--clr-orange);
     position: relative;
     transition: .5s ease;
     z-index: 2;
@@ -94,7 +122,7 @@
     bottom: 0;
     height: 2px;
     width: 0;
-    background-color: var(--clr-orange600);
+    background-color: var(--clr-orange);
     transition: .5s ease;
 
   }
@@ -115,7 +143,7 @@
     bottom: 0;
     height: 0;
     width: 100%;
-    background-color: var(--clr-orange600);
+    background-color: var(--clr-orange);
     transition: .4s ease;
     z-index: -1;
   }
@@ -134,8 +162,6 @@
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    /* border: 1px solid red; */
-
 }
 
 .dropdown {

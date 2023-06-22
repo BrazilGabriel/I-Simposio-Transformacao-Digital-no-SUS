@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     color: var(--clr-light);
     padding: 3em;
     text-align: center;
@@ -40,5 +39,5 @@
 
 .footer__author span {
     font-weight: 800;
-    color: var(--clr-blue600);
+    color: var(--clr-blue);
 }

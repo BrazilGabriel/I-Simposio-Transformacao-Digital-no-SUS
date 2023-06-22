@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding-top: 2rem;
 }
 
 .sobre__content--wrapper {
@@ -29,7 +30,7 @@
  }
 
 .sobre__title {
-    color: var(--clr-orange600);
+    color: var(--clr-orange);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.13rem;
@@ -45,7 +46,7 @@
     margin-top: 5px;
     margin-right: 1rem;
     margin-bottom: 5px;
-    background-color: var(--clr-orange600);
+    background-color: var(--clr-orange);
 }
 
 .sobre__subtitle {
