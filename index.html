@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="https://www.gov.br/++theme++padrao_govbr/favicons/favicon-32x32.png" />
-  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <!-- <link rel="preload" href="/hero_bg_alt.png" as="image"/> -->
+  <link rel="icon" type="image/svg+xml" href="/fav_icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
   <meta name="description" content="">
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
@@ -16,9 +17,11 @@
 </head>
 
 <body>
+  <!-- <div class="pre"></div>
+  <div class="content"></div> -->
   <header class="header container">
     <nav class="header__menu">
-      <a class="header__icon" href="./index.html"><img src="/seidigi.png" alt="logo do "></a>
+      <a class="header__icon" href="./index.html"><img src="/logo.png" alt="logo do evento"></a>
       <ul class="header__menu--navigation">
         <li>
           <a class="header__link" href="#sobre">Sobre o evento</a>
@@ -38,16 +41,17 @@
       </ul>
       <ul class="header__menu--navigation">
         <li>
-          <a class="header__contact btn_inline" href="#inscreva-se">Inscreva-se</a>
+          <a class="header__contact btn_inline" target="blank" href="http://www.google.com">Inscreva-se</a>
         </li>
       </ul>
-      <button class="header__bars">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-            clip-rule="evenodd" />
+
+      <label class="hamburger">
+        <input class="header__bars" type="checkbox">
+        <svg viewBox="0 0 32 32">
+          <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+          <path class="line" d="M7 16 27 16"></path>
         </svg>
-      </button>
+      </label>
     </nav>
 
   </header>
@@ -73,7 +77,7 @@
         </li>
         <li class="mobile-nav__link-line"></li>
         <li>
-          <a class="header__contact btn2" href="#inscreva-se">Inscreva-se</a>
+          <a class="mobile-nav__link header__contact btn2" target="blank" href="http://www.google.com">Inscreva-se</a>
         </li>
       </ul>
     </nav>
@@ -102,11 +106,8 @@
           </svg>
         </li>
       </ul>
-      <!-- <p class="hero__description animate">(TEXTO EXEMPLO) Iniciativa para fortalecer debates e ações da Secretaria de
-        Informação e Saúde Digital, visando o fortalecimento e integração de sistemas de informação e o avanço na
-        transformação digital da saúde a partir do Sistema Único de Saúde (SUS).</p> -->
       <div class="hero__btn--wrapper">
-        <a class="hero__btn btn2 animate" href="">Inscreva-se</a>
+        <a class="hero__btn btn2 animate" target="blank" href="http://www.google.com">Inscreva-se</a>
       </div>
 
       <a class="hero__scroll" href="#sobre">
@@ -132,7 +133,7 @@
         <img class="sobre__img" src="/sobre_video.png" alt="">
       </div>
     </div>
-    <!-- <a class="sobre__btn btn2" href="">Inscreva-se agora</a> -->
+
   </section>
 
   <section class="local container section" id="local">
