@@ -55,7 +55,7 @@
 .comissao__label {
   display: inline-block;
   margin: 0 0 -1px;
-  padding: 1rem 1.2rem;
+  padding: 1rem .5rem;
   font-weight: 600;
   font-size: var(--size-sm);
   text-align: center;
@@ -76,7 +76,8 @@
 }
 
 #tab1:checked ~ #content1,
-#tab2:checked ~ #content2 {
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
   display: block;
 }
 
