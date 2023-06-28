@@ -55,9 +55,9 @@
 .comissao__label {
   display: inline-block;
   margin: 0 0 -1px;
-  padding: 1rem .5rem;
+  padding: 1rem .1rem;
   font-weight: 600;
-  font-size: var(--size-sm);
+  font-size: var(--size-xs);
   text-align: center;
   color: #bbb;
   border: 1px solid transparent;
