@@ -19,13 +19,22 @@
     list-style-type: none;
     align-items: center;
     padding: 0;
+    flex-wrap: wrap;
 }
 
-.footer__item {
-    margin: 0 1em;
-    max-width: 35rem;
+
+.footer__item--base {
+
 }
 
+.footer__item--sm {
+    flex-basis: 200px;
+}
+
+.footer__item--xs {
+
+    flex-basis: 100px;
+}
 
 .footer__author {
     margin-top: 2em;
@@ -41,3 +50,4 @@
     font-weight: 800;
     color: var(--clr-blue);
 }
+

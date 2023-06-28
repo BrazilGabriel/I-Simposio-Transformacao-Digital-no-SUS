@@ -54,6 +54,14 @@
     background-color: var(--clr-light);
     color: var(--clr-dark);
   }
+
+  h2{
+    font-family: 'montserrat', sans-serif;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-serif;
+  }
   
   img,
   picture,
