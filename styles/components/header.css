@@ -4,13 +4,14 @@
     padding-bottom: 2rem;
     position: relative;
     z-index: 9999;
+    align-self: flex-start;
     /* border: 1px solid red; */
 
 }
 
 .header__menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     gap: 2em;
 }
@@ -21,7 +22,7 @@
 
 
 .header__bars {
-    color: var(--clr-dark);
+    color: var(--clr-light);
     display: block;
     min-width: var(--size-4xL);
     min-height: var(--size-4xL);;
@@ -66,7 +67,7 @@
         font-size: var(--size-xs);
         text-decoration: none;
         font-weight: 600;
-        color: #44403E;
+        color: var(--clr-light);
         letter-spacing: -0.05em;
         transition: color 0.3s;
         white-space: nowrap;
@@ -77,7 +78,7 @@
     }
     
       
-    .header__contact {
+    .header__incricao {
         font-size: var(--size-sm);
         white-space: nowrap;
     }

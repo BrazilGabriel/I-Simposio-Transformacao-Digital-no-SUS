@@ -62,7 +62,7 @@
   
   .line {
     fill: none;
-    stroke: var(--clr-blue);
+    stroke: var(--clr-light);
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 3;
@@ -147,9 +147,9 @@
     font-weight: 700;
     font-size: var(--size-base);
     background: transparent;
-    border: 1px solid var(--clr-orange);
+    border: 1px solid var(--clr-light);
     padding: 1em 1.5em;
-    color: var(--clr-orange);
+    color: var(--clr-light);
     position: relative;
     transition: .5s ease;
     z-index: 2;
@@ -162,15 +162,12 @@
     bottom: 0;
     height: 2px;
     width: 0;
-    background-color: var(--clr-orange);
+    background-color: var(--clr-light);
     transition: .5s ease;
 
   }
   
-  .btn_inline:hover {
-    color: var(--clr-light);
-    transition-delay: .5s;
-  }
+
   
   .btn_inline:hover::before {
     width: 100%;
@@ -183,16 +180,12 @@
     bottom: 0;
     height: 0;
     width: 100%;
-    background-color: var(--clr-orange);
+    background-color: var(--clr-light);
     transition: .4s ease;
     z-index: -1;
   }
   
-  .btn_inline:hover::after {
-    height: 100%;
-    transition-delay: 0.4s;
-    color: rgb(255, 255, 255);
-  }
+
 
 
 
