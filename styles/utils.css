@@ -145,14 +145,18 @@
 
 .btn_inline {
     font-weight: 700;
-    font-size: var(--size-base);
     background: transparent;
     border: 1px solid var(--clr-light);
-    padding: 1em 1.5em;
+    padding: 1em .8em;
     color: var(--clr-light);
     position: relative;
     transition: .5s ease;
     z-index: 2;
+  }
+
+  .btn_inline:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+ 
   }
   
   .btn_inline::before {
@@ -167,7 +171,6 @@
 
   }
   
-
   
   .btn_inline:hover::before {
     width: 100%;
@@ -193,8 +196,9 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    /* border: 1px solid red; */
 }
 
 .dropdown {
