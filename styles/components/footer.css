@@ -26,20 +26,7 @@
 }
 
 
-.footer__item--sm {
-    max-width: 250px;
-    /* border: 1px solid red; */
 
-}
-
-.footer__item--xs {
-max-width: 200px;
-/* border: 1px solid red; */
-}
-.footer__item--base {
-    min-width: 300px;
-    /* border: 1px solid red; */
-    }
 .footer__author {
     margin-top: 2em;
     font-size: var(--size-xs);
@@ -54,6 +41,8 @@ max-width: 200px;
     font-weight: 800;
     color: var(--clr-blue);
 }
+
+
 
 /* xs (gap:1.5rem)*/
 /* @media (min-width: 475px) {} */
@@ -70,6 +59,15 @@ max-width: 200px;
         align-items: center;
         padding: 0;
         flex-wrap: nowrap;
+    }
+
+    .footer__item--logo {
+        filter: invert(.3);
+        transition: 0.2 ease;
+    }
+    
+    .footer__item--logo:hover {
+        filter: invert(0);
     }
 }
 

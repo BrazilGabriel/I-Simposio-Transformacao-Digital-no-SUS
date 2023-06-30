@@ -66,8 +66,8 @@
 }
 
 .local__divider {
-    width: 35ch;
-    border-color: var(--clr-blue);
+    width: 90%;
+    border-color: var(--clr-dark);
 }
 
 .local__info {

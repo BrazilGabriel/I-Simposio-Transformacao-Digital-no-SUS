@@ -75,10 +75,6 @@
     text-align: right;
 }
 
-.hero__btn--wrapper {
-    margin-top: 1rem;
-    align-self: center;
-}
 
 
 .hero__scroll {
@@ -193,9 +189,9 @@
         height: var(--size-3xL);
     }
 
-    .hero__btn--wrapper {
+    /* .hero__btn--wrapper {
         display: none;
-    }
+    } */
 
     .hero__scroll {
         padding: 3rem 1rem 2rem 1rem;

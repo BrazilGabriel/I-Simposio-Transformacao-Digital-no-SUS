@@ -56,17 +56,26 @@
     max-width: 30ch;
 }
 
+.contato__info {
+    max-width: 40ch;
+
+}
+
 .contato__description {
     color: var(--clr-slate800);
     font-weight: 400;
     font-size: var(--size-sm);
     padding-left: 2.5rem;
+
+}
+
+.contato__description span {
+    white-space: nowrap;
 }
 
 .contato__divider {
-    width: 15ch;
-    border-color: var(--clr-blue);
-    margin-left: 2.5rem;
+    width: 80%;
+    border-color: var(--clr-dark);
 }
 
 .contato__info {
@@ -114,6 +123,7 @@
     }
 
     .contato__header--wrapper {
+        gap: 3rem;
         min-width: 30%;
     }
 
