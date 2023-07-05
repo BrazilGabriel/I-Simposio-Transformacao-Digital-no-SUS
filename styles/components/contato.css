@@ -69,7 +69,7 @@
 
 }
 
-.contato__description span {
+.contato__description a {
     white-space: nowrap;
 }
 

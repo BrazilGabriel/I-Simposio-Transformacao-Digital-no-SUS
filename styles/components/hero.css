@@ -189,9 +189,10 @@
         height: var(--size-3xL);
     }
 
-    /* .hero__btn--wrapper {
-        display: none;
-    } */
+    .hero__btn--wrapper {
+        display: flex;
+        gap: 2rem;
+    } 
 
     .hero__scroll {
         padding: 3rem 1rem 2rem 1rem;

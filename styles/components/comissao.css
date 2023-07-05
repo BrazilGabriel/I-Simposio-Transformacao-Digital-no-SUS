@@ -55,7 +55,7 @@
 .comissao__label {
   display: inline-block;
   margin: 0 0 -1px;
-  padding: 1rem .1rem;
+  padding: 1rem 1.2rem;
   font-weight: 600;
   font-size: var(--size-xs);
   text-align: center;

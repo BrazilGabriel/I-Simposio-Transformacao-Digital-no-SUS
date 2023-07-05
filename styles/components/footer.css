@@ -8,10 +8,26 @@
 
 }
 
+.footer ul {
+    padding-bottom: 5rem;
+}
+
 .footer__wrapper {
     background-color: var(--clr-dark);
 }
 
+.footer__title {
+    color: var(--clr-light);
+    font-weight: 700;
+    font-size: var(--size-2xL);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer__divider {
+    width: 30%;
+    margin-bottom: 2rem;
+}
 
 .footer__icons {
     display: flex;
