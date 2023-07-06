@@ -65,6 +65,10 @@
     font-size: var(--size-sm);
 }
 
+.local__description a {
+    white-space: nowrap;
+}
+
 .local__divider {
     width: 90%;
     border-color: var(--clr-dark);

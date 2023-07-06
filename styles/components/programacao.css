@@ -53,6 +53,7 @@
     font-weight: 700;
     font-size: var(--size-2xL);
     max-width: 30ch;
+
 }
 
 .programacao__link {
@@ -63,6 +64,10 @@
     color: var(--clr-slate800);
     font-weight: 400;
     font-size: var(--size-sm);
+    text-align: center;
+    color: rgb(179, 179, 179);
+    padding-top: 2rem;
+
 }
 
 .programacao__divider {
