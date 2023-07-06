@@ -34,7 +34,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.13rem;
-    font-size: var(--size-base); 
+    font-size: var(--size-lg);
 }
 
 .local__title:before {
@@ -51,7 +51,7 @@
 .local__subtitle {
     color: var(--clr-dark);
     font-weight: 700;
-    font-size: var(--size-2xL);
+    font-size: var(--size-lg);
     max-width: 30ch;
 }
 
@@ -126,17 +126,19 @@
     }
     
     .local__title {
-        font-size: var(--size-lg);
+        font-size: var(--size-2xL);
     }
 
     .local__title:before {
         width: 3rem;
+        height: 3px;
         margin-right: 1.5rem;
+        margin-bottom: .4rem;
 
     }
     
     .local__subtitle {
-        font-size: var(--size-3xL);
+        font-size: var(--size-2xL);
     }
     
     .local__description {
@@ -165,11 +167,15 @@
 
 
     .local__title {
-        font-size: var(--size-xL);
+        font-size: var(--size-4xL);
     }
     
     .local__subtitle {
         font-size: var(--size-4xL);
+    }
+    .local__title:before {
+        margin-bottom: .6rem;
+        height: 4px;
     }
     
     .local__description {

@@ -1,8 +1,13 @@
+.sobre__wrapper {
+    background-color: var(--clr-dark)
+}
+
 .sobre {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding-top: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
 }
 
 .sobre__content--wrapper {
@@ -16,7 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;   
+    gap: 2rem;
 }
 
 .sobre__img--wrapper {
@@ -24,18 +29,17 @@
     max-width: 18rem;
 }
 
-.sobre__img{
+.sobre__img {
     border-radius: 0.8em;
     margin: 0 auto;
- }
+}
 
 .sobre__title {
     color: var(--clr-orange);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.13rem;
-    font-size: var(--size-base);
-    
+    font-size: var(--size-lg);
 }
 
 .sobre__title:before {
@@ -50,14 +54,14 @@
 }
 
 .sobre__subtitle {
-    color: var(--clr-dark);
+    color: var(--clr-light);
     font-weight: 700;
-    font-size: var(--size-2xL);
+    font-size: var(--size-lg);
     max-width: 30ch;
 }
 
 .sobre__description {
-    color: var(--clr-slate800);
+    color: var(--clr-light);
     font-weight: 400;
     font-size: var(--size-sm);
 }
@@ -67,7 +71,7 @@
     margin-top: 3rem;
 }
 
- /* xs (gap:1.5rem)*/
+/* xs (gap:1.5rem)*/
 /* @media (min-width: 475px) {} */
 
 /* sm */
@@ -75,7 +79,7 @@
 
 /* md */
 @media (min-width: 768px) {
-    
+
     .sobre__content--wrapper {
         flex-direction: row;
     }
@@ -83,25 +87,25 @@
     .sobre__content {
         gap: 3rem;
     }
-    
+
     .sobre__img--wrapper {
         min-width: 40%;
     }
-    
-    .sobre__title {
-        font-size: var(--size-lg);
-    }
 
+    .sobre__title {
+        font-size: var(--size-2xL);
+    }
     .sobre__title:before {
+        height: 3px;
         width: 3rem;
         margin-right: 1.5rem;
+        margin-bottom: .4rem;
+    }
 
-    }
-    
     .sobre__subtitle {
-        font-size: var(--size-3xL);
+        font-size: var(--size-2xL);
     }
-    
+
     .sobre__description {
         font-size: var(--size-base);
     }
@@ -112,13 +116,17 @@
 
 
     .sobre__title {
-        font-size: var(--size-xL);
+        font-size: var(--size-4xL);
     }
-    
+    .sobre__title:before {
+        margin-bottom: .6rem;
+        height: 4px;
+    }
+
     .sobre__subtitle {
         font-size: var(--size-4xL);
     }
-    
+
     .sobre__description {
         font-size: var(--size-lg);
     }

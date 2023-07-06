@@ -10,7 +10,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.13rem;
-    font-size: var(--size-base); 
+    font-size: var(--size-lg);
 }
 
 .comissao__title:before {
@@ -97,19 +97,19 @@
 /* md */
 @media (min-width: 768px) {
     
-    
     .comissao__title {
-        font-size: var(--size-lg);
+        font-size: var(--size-2xL);
     }
 
     .comissao__title:before {
+        height: 3px;
         width: 3rem;
         margin-right: 1.5rem;
-
+        margin-bottom: .4rem;
     }
-    
+
     .comissao__subtitle {
-        font-size: var(--size-3xL);
+        font-size: var(--size-2xL);
     }
     
     .comissao__description {
@@ -137,7 +137,12 @@
 
 
     .comissao__title {
-        font-size: var(--size-xL);
+        font-size: var(--size-4xL);
+    }
+    
+    .comissao__title:before {
+        margin-bottom: .6rem;
+        height: 4px;
     }
     
     .comissao__subtitle {
