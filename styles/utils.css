@@ -16,7 +16,7 @@
 /* 2xL */
 /* @media (min-width: 1536px) {} */
 
-.to-top{
+.to-top {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
@@ -35,10 +35,11 @@
     transition: all .3s;
 }
 
-.to-top:hover{
-    color: var(--clr-orange); 
+.to-top:hover {
+    color: var(--clr-orange);
     border: 2px solid var(--clr-orange);
 }
+
 .to-top.active {
     bottom: 3rem;
     pointer-events: auto;
@@ -48,19 +49,19 @@
 .hamburger {
     cursor: pointer;
 }
-  
+
 .hamburger input {
-  display: none;
-  }
-  
-  .hamburger svg {
+    display: none;
+}
+
+.hamburger svg {
     /* The size of the SVG defines the overall size */
     height: 2.5em;
     /* Define the transition for transforming the SVG */
     transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .line {
+}
+
+.line {
     fill: none;
     stroke: var(--clr-light);
     stroke-linecap: round;
@@ -68,21 +69,21 @@
     stroke-width: 3;
     /* Define the transition for transforming the Stroke */
     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .line-top-bottom {
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
     stroke-dasharray: 12 63;
-  }
-  
-  .hamburger input:checked + svg {
+}
+
+.hamburger input:checked+svg {
     transform: rotate(-45deg);
-  }
-  
-  .hamburger input:checked + svg .line-top-bottom {
+}
+
+.hamburger input:checked+svg .line-top-bottom {
     stroke-dasharray: 20 300;
     stroke-dashoffset: -32.42;
-  }
+}
 
 
 .btn {
@@ -152,14 +153,14 @@
     position: relative;
     transition: .5s ease;
     z-index: 2;
-  }
+}
 
-  .btn_inline:hover {
+.btn_inline:hover {
     background-color: rgba(255, 255, 255, 0.2);
- 
-  }
-  
-  .btn_inline::before {
+
+}
+
+.btn_inline::before {
     content: '';
     position: absolute;
     left: 0;
@@ -169,14 +170,14 @@
     background-color: var(--clr-light);
     transition: .5s ease;
 
-  }
-  
-  
-  .btn_inline:hover::before {
+}
+
+
+.btn_inline:hover::before {
     width: 100%;
-  }
-  
-  .btn_inline::after {
+}
+
+.btn_inline::after {
     content: '';
     position: absolute;
     left: 0;
@@ -186,8 +187,8 @@
     background-color: var(--clr-light);
     transition: .4s ease;
     z-index: -1;
-  }
-  
+}
+
 
 
 

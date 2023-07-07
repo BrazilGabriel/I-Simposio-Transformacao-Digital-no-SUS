@@ -63,7 +63,7 @@
 .sobre__description {
     color: var(--clr-light);
     font-weight: 400;
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
 }
 
 .sobre__btn {

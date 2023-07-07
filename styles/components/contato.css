@@ -56,16 +56,11 @@
     max-width: 30ch;
 }
 
-.contato__info {
-    max-width: 40ch;
-
-}
-
 .contato__description {
     color: var(--clr-slate800);
     font-weight: 400;
-    font-size: var(--size-sm);
-    padding-left: 2.5rem;
+    font-size: var(--size-base);
+    padding-left: 1.8rem;
 
 }
 
@@ -79,6 +74,7 @@
 }
 
 .contato__info {
+    max-width: 34ch;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,7 +83,7 @@
     padding-left: 0;
     gap: 1rem;
     font-weight: 700;
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
     color: var(--clr-slate800);
 }
 

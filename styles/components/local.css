@@ -62,7 +62,7 @@
 .local__description {
     color: var(--clr-slate800);
     font-weight: 400;
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
 }
 
 .local__description a {
@@ -83,7 +83,7 @@
     padding-left: 0;
     gap: 1rem;
     font-weight: 700;
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
     color: var(--clr-slate800);
 
 }
@@ -92,6 +92,7 @@
     display: flex;
     align-items: center;
     gap: .5rem;
+    letter-spacing: -0.03rem;
 
 }
 

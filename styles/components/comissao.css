@@ -34,7 +34,7 @@
 .comissao__description {
     color: var(--clr-slate800);
     font-weight: 400;
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
 }
 
 .comissao__tabs{
@@ -43,7 +43,7 @@
 
 .comissao__section {
   display: none;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 1rem 0 0;
   border-top: 1px solid #ddd;
   font-size: var(--size-sm);
 }

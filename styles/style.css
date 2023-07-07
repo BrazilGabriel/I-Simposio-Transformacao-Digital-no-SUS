@@ -87,10 +87,6 @@ a {
   text-decoration: none;
 }
 
-strong {
-
-}
-
 /* Scroll */
 body::-webkit-scrollbar {
   width: 6px;
