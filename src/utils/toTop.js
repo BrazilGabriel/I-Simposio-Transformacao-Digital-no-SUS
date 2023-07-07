@@ -9,7 +9,7 @@ const backToTop = () => {
             toTop.classList.remove("active");
         }
 
-        if(window.scrollY >= 10){
+        if(window.scrollY >= 700){
             navbar.classList.add("sticky");
         } else {
             navbar.classList.remove("sticky");
