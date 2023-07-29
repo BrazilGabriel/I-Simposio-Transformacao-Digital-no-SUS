@@ -1,0 +1,15 @@
+.modal__body {
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    width:80%;
+    margin: 1rem auto;
+    z-index: 9999999;
+}
+
+
+
+.modal__body button{
+    margin-top: 1rem;
+    align-self: flex-start;
+}
