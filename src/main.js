@@ -17,14 +17,14 @@ import '../styles/components/footer.css'
 import '../styles/utils.css'
 
 import loading from './utils/loader';
-import modal from './utils/modal';
+// import modal from './utils/modal';
 import animationController from './utils/animationController.js';
 import mobileNav from './utils/mobile-nav.js';
 import backToTop from './utils/toTop.js';
 import acordeao from './utils/acordeao';
 
 loading();
-modal();
+// modal();
 mobileNav();
 animationController();
 backToTop();
