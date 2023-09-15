@@ -1,8 +1,14 @@
+.programacao__wrapper{
+    background-color: white
+}
+
 .programacao {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding-top: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+    
 }
 
 .programacao__content--wrapper {
@@ -10,18 +16,20 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    
 }
 
 .programacao__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;   
+    gap: rem;   
 }
 
 .programacao__img--wrapper {
     margin: 0 auto;
-    max-width: 18rem;
+    max-width: 64rem;
+
 }
 
 .programacao__img{
