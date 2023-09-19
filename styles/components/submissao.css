@@ -82,9 +82,10 @@
     transition: max-height 0.2s ease-out;
 }
 
-.submissao__enviar {
-    white-space: nowrap;
-    text-align: center;;
+.submissao__video-wrapper
+{
+    width: 75%;
+
 }
 
 
@@ -116,6 +117,12 @@
     .submissao__texto {
         font-size: var(--size-base);
     }
+
+    .submissao__video-wrapper
+{
+    width: 50%;
+
+}
 
 }
 
