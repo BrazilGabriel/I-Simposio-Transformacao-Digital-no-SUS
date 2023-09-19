@@ -1,477 +1,566 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="preload" href="/hero_bg_alt.png" as="image"/> -->
-    <link rel="icon" type="image/svg+xml" href="/fav__icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
-    <meta name="description" content="" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Montserrat:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <title>I Simpósio Transformação Digital no SUS</title>
-  </head>
 
-  <body class="loader__body">
-    <div class="box-load">
-      <div class="pre"></div>
-    </div>
-    <div class="content">
-      <!-- <dialog open class="modal__body">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="preload" href="/hero_bg_alt.png" as="image"/> -->
+  <link rel="icon" type="image/svg+xml" href="/fav__icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
+  <meta name="description" content="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Montserrat:wght@700&display=swap"
+    rel="stylesheet" />
+  <title>I Simpósio Transformação Digital no SUS</title>
+</head>
+
+<body class="loader__body">
+  <div class="box-load">
+    <div class="pre"></div>
+  </div>
+  <div class="content">
+    <!-- <dialog open class="modal__body">
         <h2>COMUNICADO</h2>
         <p>
           O 1.º Simpósio Internacional de Transformação Digital no SUS, organizado para os dias 7 e 8 de agosto, no Centro de Convenções Rebouças (CCR), São Paulo, foi adiado,  em virtude de uma agenda Presidencial envolvendo o Ministério da Saúde e a saúde digital, na região Amazônica, na mesma data. O Simpósio será realizado ainda no segundo semestre deste ano, em data a ser divulgada em breve. As inscrições realizadas até o momento serão mantidas, assim como as mais de 200 experiências exitosas já submetidas. Devido à grande procura, o recebimento de experiências permanecerá aberto no website do evento até o dia 2 de agosto de 2023.  (Comissão  Organizadora e  Comissão Científica)
         </p>
         <button class="btn2">OK</button>
       </dialog> -->
-      <div class="hero__wrapper">
-        <div class="header__wrapper" id="navbar">
-          <header class="header container" id="header">
-            <div class="header__logo" id="logo">
-              <a href="./">
-                <img
-                  class="header__image"
-                  src="/header_logo.png"
-                  alt="logo do evento"
-                />
-              </a>
-            </div>
-            <nav class="header__menu">
-              <ul class="header__menu--navigation" id="menu">
-                <li>
-                  <a class="header__link" href="#sobre">Sobre o evento</a>
-                </li>
-                <li>
-                  <a class="header__link" href="#local">Local</a>
-                </li>
-                <li>
-                  <a class="header__link" href="#programacao">Programação</a>
-                </li>
-                <li>
-                  <a class="header__link" href="#submissao">Submissão</a>
-                </li>
-                <li>
-                  <a class="header__link" href="#contato">Contate-nos</a>
-                </li>
-                <li>
-                  <a class="header__link" href="#comissao">Comissão</a>
-                </li>
-                <li>
-                  <a
-                    class="btn_inline header__inscricao"
-                    target="blank"
-                    href="https://www.even3.com.br/simposiointernacionaldetransformacaodigitalnosus/"
-                    >Inscreva-se</a
-                  >
-                </li>
-              </ul>
-              <label class="hamburger">
-                <input class="header__bars" type="checkbox" />
-                <svg viewBox="0 0 32 32">
-                  <path
-                    class="line line-top-bottom"
-                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
-                  ></path>
-                  <path class="line" d="M7 16 27 16"></path>
-                </svg>
-              </label>
-            </nav>
-          </header>
-        </div>
-        <section class="hero container">
-          <img class="hero__logo animate" src="/hero_logo.png" />
-
-          <div class="hero__btn--wrapper">
-            <a
-              class="hero__btn btn_inline animate"
-              target="blank"
-              href="https://www.even3.com.br/simposiointernacionaldetransformacaodigitalnosus/"
-              >Inscrições abertas</a
-            >
+    <div class="hero__wrapper">
+      <div class="header__wrapper" id="navbar">
+        <header class="header container" id="header">
+          <div class="header__logo" id="logo">
+            <a href="./">
+              <img class="header__image" src="/header_logo.png" alt="logo do evento" />
+            </a>
           </div>
-        </section>
-        <a class="hero__scroll" href="#sobre">
-          <div class="arrow">
-            <div class="arrow-top"></div>
-            <div class="arrow-bottom"></div>
-          </div>
-        </a>
-      </div>
-      <!-- Mobile Navigation -->
-      <div class="mobile-nav">
-        <nav>
-          <ul class="mobile-nav__menu">
-            <li>
-              <a class="mobile-nav__link" href="#sobre">Sobre o evento</a>
-            </li>
-            <li>
-              <a class="mobile-nav__link" href="#local">Local</a>
-            </li>
-            <li>
-              <a class="mobile-nav__link" href="#programacao">Programação</a>
-            </li>
-            <li>
-              <a class="mobile-nav__link" href="#submissao"
-                >Submissão de Experiência</a
-              >
-            </li>
-            <li>
-              <a class="mobile-nav__link" href="#contato">Contate-nos</a>
-            </li>
-            <li>
-              <a class="mobile-nav__link" href="#comissao">Comissão</a>
-            </li>
-            <li class="mobile-nav__link-line"></li>
-            <li>
-              <a
-                class="mobile-nav__link header__contact btn_inline"
-                target="blank"
-                href="https://www.even3.com.br/simposiointernacionaldetransformacaodigitalnosus/"
-                >Inscreva-se</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="sobre__wrapper">
-        <section class="sobre container" id="sobre">
-          <h2 class="sobre__title animate">Sobre o evento</h2>
-          <div class="sobre__content--wrapper">
-            <div class="sobre__content">
-              <h3 class="sobre__subtitle animate">
-                Transformação Digital no SUS
-              </h3>
-              <p class="sobre__description animate">
-                O 1º Simpósio Internacional de Transformação Digital no SUS é
-                uma realização da Secretaria de Informação e Saúde Digital do
-                Ministério da Saúde (SEIDIGI/MS), em parceria com a Organização
-                Pan-Americana da Saúde (OPAS) e Secretaria de Estado da Saúde do
-                Estado de São Paulo (SES-SP). O evento conta com o apoio do
-                Conselho Nacional de Secretários de Saúde (CONASS), do Conselho
-                Nacional de Secretarias Municipais de Saúde (CONASEMS), do
-                Conselho de Secretários Municipais de Saúde do Estado de São
-                Paulo (COSEMS/SP), da Rede Nacional de Ensino e Pesquisa (RNP),
-                da Sociedade Brasileira de Informática em Saúde (SBIS), da
-                Associação Brasileira de Telemedicina e Telessaúde (ABTms) e do
-                Conselho Nacional de Saúde (CNS).
-              </p>
-              <p class="sobre__description animate">
-                O desenvolvimento de novas ferramentas digitais e o uso de dados
-                em saúde estão transformando a forma como os serviços de saúde
-                são prestados, a saúde pública é organizada e as doenças
-                crônicas são gerenciadas. A saúde digital está desempenhando um
-                papel cada vez maior nos sistemas de saúde por meio dos
-                registros eletrônicos, do uso de dados de saúde populacional
-                para a implementação e monitoramento de políticas públicas, além
-                da ampliação do acesso à saúde via novas plataformas de
-                telessaúde.
-              </p>
-              <p class="sobre__description animate">
-                Nesse contexto de rápida transformação digital dos sistemas de
-                saúde globais, o 1º Simpósio Internacional de Transformação
-                Digital no SUS surge como plataforma para a apresentação de
-                experiencias exitosas no SUS com o objetivo de acelerar a
-                implementação de inovações no sistema público de saúde,
-                ampliando o acesso à saúde da população brasileira.
-              </p>
-              <p class="sobre__description animate">
-                O evento será transmitido ao vivo (link será disponibilizado em
-                breve). Vagas Presenciais Limitadas.
-              </p>
-            </div>
-            <div class="sobre__img--wrapper">
-              <img class="sobre__img" src="/sobre.png" alt="" />
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <section class="local container" id="local">
-        <h2 class="local__title animate">Local</h2>
-        <div class="local__content--wrapper">
-          <div class="local__img--wrapper">
-            <img
-              class="local__img"
-              src="/local_evento.jpg"
-              alt="foto do Centro de Convenções Rebouças - Local do evento"
-            />
-          </div>
-          <div class="local__content">
-            <h3 class="local__subtitle animate">
-              Centro de Convenções Rebouças
-            </h3>
-
-            <ul class="local__info animate">
-              <li class="local__info--item">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-                  />
-                </svg>
-                2 e 3 de Outubro de 2023
+          <nav class="header__menu">
+            <ul class="header__menu--navigation" id="menu">
+              <li>
+                <a class="header__link" href="#sobre">Sobre o evento</a>
               </li>
-              <li class="local__info--item">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                  />
-                </svg>
-                Centro de Convenções Rebouças, São Paulo - SP
+              <li>
+                <a class="header__link" href="#local">Local</a>
+              </li>
+              <li>
+                <a class="header__link" href="#programacao">Programação</a>
+              </li>
+              <li>
+                <a class="header__link" href="#submissao">Submissão</a>
+              </li>
+              <li>
+                <a class="header__link" href="#contato">Contate-nos</a>
+              </li>
+              <li>
+                <a class="header__link" href="#comissao">Comissão</a>
+              </li>
+              <li>
+                <a class="btn_inline header__inscricao" target="blank"
+                  href="https://www.even3.com.br/simposiointernacionaldetransformacaodigitalnosus/">Inscreva-se</a>
               </li>
             </ul>
-            <hr class="local__divider" />
-            <p class="local__description animate">
-              O Centro de Convenções Rebouças é um renomado espaço para eventos
-              localizado na cidade de São Paulo, Brasil. Conhecido por sediar
-              uma ampla gama de atividades, possui uma localização privilegiada,
-              situado próximo a Avenida Paulista e da Estação de Metrô Clínicas.
-              Para quem vai de carro, existem diversos estacionamentos próximos,
-              além de contar com inúmeros hotéis e restaurantes no perímetro.
+            <label class="hamburger">
+              <input class="header__bars" type="checkbox" />
+              <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom"
+                  d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                </path>
+                <path class="line" d="M7 16 27 16"></path>
+              </svg>
+            </label>
+          </nav>
+        </header>
+      </div>
+      <section class="hero container">
+        <img class="hero__logo animate" src="/hero_logo.png" />
+
+        <div class="hero__btn--wrapper">
+          <a class="hero__btn btn_inline animate" target="blank"
+            href="https://www.even3.com.br/simposiointernacionaldetransformacaodigitalnosus/">Inscrições abertas</a>
+        </div>
+      </section>
+      <a class="hero__scroll" href="#sobre">
+        <div class="arrow">
+          <div class="arrow-top"></div>
+          <div class="arrow-bottom"></div>
+        </div>
+      </a>
+    </div>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#sobre">Sobre o evento</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#local">Local</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#programacao">Programação</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#submissao">Submissão de Experiência</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contato">Contate-nos</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#comissao">Comissão</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <a class="mobile-nav__link header__contact btn_inline" target="blank"
+              href="https://www.even3.com.br/simposiointernacionaldetransformacaodigitalnosus/">Inscreva-se</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sobre__wrapper">
+      <section class="sobre container" id="sobre">
+        <h2 class="sobre__title animate">Sobre o evento</h2>
+        <div class="sobre__content--wrapper">
+          <div class="sobre__content">
+            <h3 class="sobre__subtitle animate">
+              Transformação Digital no SUS
+            </h3>
+            <p class="sobre__description animate">
+              O 1º Simpósio Internacional de Transformação Digital no SUS é
+              uma realização da Secretaria de Informação e Saúde Digital do
+              Ministério da Saúde (SEIDIGI/MS), em parceria com a Organização
+              Pan-Americana da Saúde (OPAS) e Secretaria de Estado da Saúde do
+              Estado de São Paulo (SES-SP). O evento conta com o apoio do
+              Conselho Nacional de Secretários de Saúde (CONASS), do Conselho
+              Nacional de Secretarias Municipais de Saúde (CONASEMS), do
+              Conselho de Secretários Municipais de Saúde do Estado de São
+              Paulo (COSEMS/SP), da Rede Nacional de Ensino e Pesquisa (RNP),
+              da Sociedade Brasileira de Informática em Saúde (SBIS), da
+              Associação Brasileira de Telemedicina e Telessaúde (ABTms) e do
+              Conselho Nacional de Saúde (CNS).
             </p>
-            <p class="local__description animate">
-              Vinculado ao Hospital das Clínicas da Faculdade de Medicina da
-              Universidade de São Paulo, o Centro de Convenções Rebouças iniciou
-              suas atividades em 1982. Especializado na locação de espaços para
-              eventos dos mais variados portes, áreas e segmentos. Dispõe de 16
-              ambientes que atendem até 2.300 participantes, em uma área de
-              17mil m².
+            <p class="sobre__description animate">
+              O desenvolvimento de novas ferramentas digitais e o uso de dados
+              em saúde estão transformando a forma como os serviços de saúde
+              são prestados, a saúde pública é organizada e as doenças
+              crônicas são gerenciadas. A saúde digital está desempenhando um
+              papel cada vez maior nos sistemas de saúde por meio dos
+              registros eletrônicos, do uso de dados de saúde populacional
+              para a implementação e monitoramento de políticas públicas, além
+              da ampliação do acesso à saúde via novas plataformas de
+              telessaúde.
             </p>
-            <p class="local__description animate">
-              <strong>Endereço:</strong> Av. Rebouças, 600 - Pinheiros, São
-              Paulo - SP, 05402-000
+            <p class="sobre__description animate">
+              Nesse contexto de rápida transformação digital dos sistemas de
+              saúde globais, o 1º Simpósio Internacional de Transformação
+              Digital no SUS surge como plataforma para a apresentação de
+              experiencias exitosas no SUS com o objetivo de acelerar a
+              implementação de inovações no sistema público de saúde,
+              ampliando o acesso à saúde da população brasileira.
             </p>
-            <!-- <p class="local__description animate"><strong>Telefone:</strong> <a href="tel:+551138987850">(11)
+            <p class="sobre__description animate">
+              O evento será transmitido ao vivo (link será disponibilizado em
+              breve). Vagas Presenciais Limitadas.
+            </p>
+          </div>
+          <div class="sobre__img--wrapper">
+            <img class="sobre__img" src="/sobre.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="local container" id="local">
+      <h2 class="local__title animate">Local</h2>
+      <div class="local__content--wrapper">
+        <div class="local__img--wrapper">
+          <img class="local__img" src="/local_evento.jpg"
+            alt="foto do Centro de Convenções Rebouças - Local do evento" />
+        </div>
+        <div class="local__content">
+          <h3 class="local__subtitle animate">
+            Centro de Convenções Rebouças
+          </h3>
+
+          <ul class="local__info animate">
+            <li class="local__info--item">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+              </svg>
+              2 e 3 de Outubro de 2023
+            </li>
+            <li class="local__info--item">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              Centro de Convenções Rebouças, São Paulo - SP
+            </li>
+          </ul>
+          <hr class="local__divider" />
+          <p class="local__description animate">
+            O Centro de Convenções Rebouças é um renomado espaço para eventos
+            localizado na cidade de São Paulo, Brasil. Conhecido por sediar
+            uma ampla gama de atividades, possui uma localização privilegiada,
+            situado próximo a Avenida Paulista e da Estação de Metrô Clínicas.
+            Para quem vai de carro, existem diversos estacionamentos próximos,
+            além de contar com inúmeros hotéis e restaurantes no perímetro.
+          </p>
+          <p class="local__description animate">
+            Vinculado ao Hospital das Clínicas da Faculdade de Medicina da
+            Universidade de São Paulo, o Centro de Convenções Rebouças iniciou
+            suas atividades em 1982. Especializado na locação de espaços para
+            eventos dos mais variados portes, áreas e segmentos. Dispõe de 16
+            ambientes que atendem até 2.300 participantes, em uma área de
+            17mil m².
+          </p>
+          <p class="local__description animate">
+            <strong>Endereço:</strong> Av. Rebouças, 600 - Pinheiros, São
+            Paulo - SP, 05402-000
+          </p>
+          <!-- <p class="local__description animate"><strong>Telefone:</strong> <a href="tel:+551138987850">(11)
               3898-7850</a></p> -->
 
-            <p class="local__description animate">
-              <strong>Confira como chegar abaixo: </strong>
+          <p class="local__description animate">
+            <strong>Confira como chegar abaixo: </strong>
+          </p>
+        </div>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3033906809965!2d-46.67052638827748!3d-23.557544761365147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3b976f820f%3A0x225e51bfb9969f!2zQ2VudHJvIGRlIENvbnZlbsOnw7VlcyBSZWJvdcOnYXM!5e0!3m2!1spt-BR!2sbr!4v1687391345875!5m2!1spt-BR!2sbr"
+        max-width="1536" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="programacao container section" id="programacao">
+      <h2 class="programacao__title animate">Programação</h2>
+
+      <div class="programacao__tabs">
+        <input class="programacao__input" id="dia1" type="radio" name="tabsprog" checked />
+        <label class="programacao__label" for="dia1">2 de Outubro<br />Segunda-Feira</label>
+        <input class="programacao__input" id="dia2" type="radio" name="tabsprog" />
+        <label class="programacao__label" for="dia2">3 de Outubro<br />Terça-Feira</label>
+
+        <section class="programacao__section" id="conteudodia1">
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>9:00 às 10:30</strong> <br><br>| Painel 1: Diálogo com os Secretários do Ministério da Saúde
+            - Qual a imagem-objetivo para a transformação digital no SUS?
+          </button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+              <li>Helvécio Miranda (SAES)</li>
+              <li>Nésio Fernandes (SAPS)</li>
+              <li>Weibe Tapeba (SESAI)</li>
+              <li>Carlos Gadelha (SECTICS)</li>
+              <li>Ethel Maciel (SVSA)</li>
+              <li>Isabela Cardoso Pinto (SGTES)</li>
+              <li>Ana Estela Haddad (SEIDIGI)</li>
+              <br>
             </p>
           </div>
-        </div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3033906809965!2d-46.67052638827748!3d-23.557544761365147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3b976f820f%3A0x225e51bfb9969f!2zQ2VudHJvIGRlIENvbnZlbsOnw7VlcyBSZWJvdcOnYXM!5e0!3m2!1spt-BR!2sbr!4v1687391345875!5m2!1spt-BR!2sbr"
-          max-width="1536"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
 
-      <div class="programacao__wrapper">
-      <section class="programacao container section" id="programacao">
-        <h2 class="programacao__title animate">Programação</h2>
-          <div class="programacao__img--wrapper">
-            <img class="programacao__img" src="/programacao.jpg" alt="" />
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>10:30 às 12:00</strong> <br><br>| Conferência Internacional de Abertura: Transformação
+            Digital de Sistemas de Saúde
+          </button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+            <ul>
+              <li>Rifat Atun (Professor of Global Health Systems at Harvard University and the Faculty Chair for the
+                Harvard Ministerial Leadership Program) 15 min - remota</li>
+              <li>Massoud Ahmed (NHS Advisor) - presencial - 40 minutos</li>
+              <li><strong>Coordenação: Adriano Massuda</strong></li>
+              <br>
+            </ul>
+            </p>
           </div>
-      </section>
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>14:00 às 16:00</strong> <br><br>| Painel 2: Telessaude no SUS - experiências exitosas
+            integradas envolvendo Secretarias de Saúde e Universidades Públicas, Programa Telessaúde Brasil
+          </button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+            <ul>
+              <li>Alexandre Taleb - Núcleo de Telessaude da UFG</li>
+              <li>Alexandra Monteiro - Núcleo de Telessaúde da UERJ</li>
+              <li>Cristina Calvo - Núcleo de Telessaude da UFSC</li>
+              <li>Humberto Serra - Núcleo de Telessaude da UFMA</li>
+              <li>João Paulo Souza - Segunda Opinião Formativa - BIREME</li>
+              <li><strong>Coordenadores: Cleinaldo Costa e Alaneir Santos (UFMG)</strong></li>
+              <br>
+            </ul>
+            </p>
+          </div>
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>16:00 às 18:00</strong> <br><br>| Painel 3: Ciência de Dados e Inteligência Artificial aplicadas à predição de emergências
+            Sanitárias, em apoio ao diagnóstico e tomada de decisão na gestão da saúde
+          </button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+            <ul>
+              <li>Marcio Garcia - Centro de Inteligência Epidemiológica da SVSA / MS</li>
+              <li>Maurício Barreto - CIDACS /FIOCRUZ BA</li>
+              <li>Tom Ribeiro - Núcleo de Telessaude do HC - UFMG</li>
+              <li>Paulo Sellera - RIPSA e SAGE - DEMAS/SEIDIGI/MS</li>
+              <li>Alexandre Barbosa - Comitê Gestor da Internet / NIC.BR e a Pesquisa TIC Saúde</li>
+              <li>Juliette Morgan - CDC - Centers for Disease Control and Prevention - Escritório da América do Sul</li>
+              <li><strong>Coordenação: Mauro Sanchez (SVSA)</strong></li>
+              <br>
+            </ul>
+            </p>
+          </div>
+
+        </section>
+
+        <section class="programacao__section" id="conteudodia2">
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>9:00 às 10:00</strong> <br><br>| Mesa Oficial de Autoridades 
+          </button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+              <li>Ministra da Saúde Nísia Trindade</li>
+              <li>Socorro Gross Galeano (OPAS)</li>
+              <li>Presidente do CONASS Fabio Bacheretti</li>
+              <li>Presidente do CONASEMS Hisham Mohamad Hamida</li>
+              <li>Presidente do Conselho Nacional de Saúde Fernando Pigatto</li>
+              <li>Secretário Estadual de Saúde de São Paulo Dr. Eleuses Paiva</li>
+              <li><i>Convidados a confirmar: Ministro Camilo Santana (MEC), Ministra Luciana Santos (MCTI), Ministra Ester Dwek (MGI)</i></li>
+              <br>
+            </p>
+          </div>
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>10:00 às 12:00</strong> <br><br>| Painel 4: Sistemas de Informação em Saúde e  o Modelo de Arquitetura de Interoperabilidade  da Rede Nacional de Dados em Saúde (RNDS) 
+          </button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+              <li>Marcelo D'Agostino (OPAS) - Interoperabilidade: conceitos. - OPAS/OMS</li>
+              <li>Experiência da Dinamarca (que inspirou a RNDS)</li>
+              <li>Paula Xavier - Apresentação da RNDS - Coordenação-Geral de Inovação e Informática (CGIIS/DATASUS/SEIDIGI)</li> 
+              <li>oberta Santana - Secretária Estadual de Saúde da Bahia - Experiência da REDS do estado da Bahia</li>
+              <li>Adriana Mallet - SAS Brasil e SIAS Smart - Interoperabilidade com as plataformas de Telessaude</li>  
+              <li>Antonio Carlos Lira - Sociedade Brasileira de Informática em Saúde (SBIS)</li>
+              <li><strong>Coordenação: Guido Lemos (LAVID - V4H)  e Diogo Demarchi Silva (CONASS)</strong></li>
+              <br>
+            </p>
+          </div>
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>14:00 às 16:00</strong> <br><br>| Painel 5: Saúde Digital, Inovação e o Complexo Econômico-Industrial da Saúde</button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+              <li>Carlos Gadelha (Secretário da SECTICS) - A Saúde Digital inserida no Complexo Econômico-Industrial da Saúde</li>
+              <li>Luiz Ary Messina - Parceria MC - MCTI - Acordo de Cooperação Saúde 4.0, RNP e RUTE</li>  
+              <li>David Xavier (Coordenador Geral de Inovação / DESD / SEIDIGI) - Laboratório de Inovação em Saúde Digital</li>  
+              <li>Giovani Cerri - InovaHC - FMUSP</li>
+              <li><strong>Coordenação: Chao Lung Wen - Presidente da ABTms/CBTms e Cristina Balestrin</strong></li>
+              <br>
+            </p>
+          </div>
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>16:00 às 18:00</strong> <br><br>| Painel 6: LGPD, a regulamentação da IA e os rumos da Saúde Digital no SUS</button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+              <li>Miriam Wimmer (Autoridade Nacional de Proteção de Dados - ANPD)</li>
+              <li>Laura Scherter (participação remota)</li>
+              <li>Estela Aranha (Ministério da Justiça)</li>
+              <li>Fernando Aith  (FSP - USP)</li>
+              <li>Deivison Mendes Faustino (Unifesp)</li>
+              <li><strong>Coordenação: Naomar de Almeida Filho, Adriana Marques e Analluza Bolivar Dallari</strong></li>
+              <br>
+            </p>
+          </div>
+
+          <button class="programacao__description submissao__acordeao">
+            &#9200; <strong>18:00</strong> <br><br>| Mesa de Encerramento: Para avançarmos juntos rumo à Transformação Digital no SUS</button>
+          <div class="programacao__painel">
+            <p class="programacao__texto">
+              <li>SEIDIGI</li>
+              <li>SES-SP</li>
+              <li>CONASS</li>
+              <li>CONASEMS</li>
+              <li>OPAS</li>
+              <li>CNS</li>
+              <li><strong>Comentários e Coordenação: Naomar de Almeida Filho</strong></li>
+              <br>
+            </p>
+          </div>
+
+
+        </section>
+      </div>
+    </section>
+
+    <section class="submissao container section" id="submissao">
+      <h2 class="submissao__title animate">Submissão de Experiências</h2>
+
+      <p class="submissao__description animate">
+        Antes de prosseguir com a submissão do seu trabalho, é fundamental que
+        você leia atentamente as instruções abaixo. A leitura cuidadosa dessas
+        orientações garantirá que sua submissão esteja em conformidade com as
+        expectativas e aumentará suas chances de ser avaliada com sucesso.
+      </p>
+      <p class="submissao__description animate">
+        Caso tenha alguma dúvida sobre as instruções, entre em contato conosco
+        para esclarecimentos adicionais.
+      </p>
+
+      <div class="submissao__normas animate">
+        <button class="submissao__description submissao__acordeao">
+          NORMAS PARA SUBMISSÃO DE EXPERIÊNCIAS EM SAÚDE DIGITAL E TELESSAÚDE
+        </button>
+        <div class="submissao__painel">
+          <p class="submissao__texto">
+            As experiências devem contemplar aplicações do uso da Saúde
+            Digital e Telessaúde no contexto do Sistema Único de Saúde (SUS) e
+            devem ser inscritas em um dos Temas/subtemas abaixo:
+          </p>
+          <ol>
+            <li class="submissao__texto">
+              Telessaúde;
+              <ol>
+                <li class="submissao__texto">Teleatendimento</li>
+                <li class="submissao__texto">Telediagnóstico</li>
+                <li class="submissao__texto">
+                  Prevenção de Doenças e Agravos / Promoção de Saúde
+                </li>
+                <li class="submissao__texto">Teleducação Interativa</li>
+              </ol>
+            </li>
+            <li class="submissao__texto">Inovação Pública;</li>
+            <li class="submissao__texto">Monitoramento e Avaliação;</li>
+            <li class="submissao__texto">
+              Sistemas de Informação e Plataformas;
+            </li>
+            <li class="submissao__texto">Desenvolvimento de Aplicativos.</li>
+          </ol>
+          <p class="submissao__texto">
+            A Comissão Científica do 1º Simpósio Internacional de
+            Transformação Digital no SUS irá selecionar uma mostra das
+            experiências submetidas para que seja apresentada durante o
+            Simpósio.
+          </p>
+          <p class="submissao__texto">
+            Os interessados em participar da apresentação oral deverão
+            manifestar interesse no formulário de submissão da proposta,
+            indicando o nome e dados do apresentador(a).
+          </p>
+          <p class="submissao__texto">
+            A apresentação poderá ser realizada na modalidade oral ou pôster
+            com reconhecimento dos trabalhos em destaques.
+          </p>
+          <p class="submissao__texto">
+            Os projetos e experiências submetidas podem ou não apresentar
+            parcerias com Secretarias de Estado da Saúde, Universidades,
+            Centros de Pesquisa e outras organizações públicas ou privadas,
+            dentre outras instituições, desde que seu desenvolvimento tenha
+            ocorrido em parceria com equipes municipais.
+          </p>
+          <p class="submissao__texto">
+            Não há limite de autores ou coautores para cada projeto ou
+            experiência.
+          </p>
+          <p class="submissao__texto">
+            Ao submeter as experiências para o 1º Simpósio Internacional de
+            Transformação Digital no SUS, os autores autorizaram a publicação
+            do material submetido.
+          </p>
+          <p class="submissao__texto">
+            O responsável pela apresentação poderá ser um dos autores do
+            trabalho ou alguém designado pelo gestor da experiência. Para
+            apresentação do trabalho é necessário que pelo menos um dos
+            autores esteja inscrito no Simpósio.
+          </p>
+          <p class="submissao__texto">
+            O prazo para envio dos trabalhos será de
+            <strong>23 de julho de 2023.</strong>
+          </p>
+          <ol>
+            <li class="submissao__texto">
+              Os trabalhos deverão ser submetidos pelo Formulário (clicar no
+              botão abaixo "Submeter Experiência").
+            </li>
+            <li class="submissao__texto">
+              Os trabalhos também deverão ser anexados sob a forma de texto
+              (arquivo em PDF) ao final do formulário conforme modelo a
+              seguir:
+              <a target="_blank" href="FORMULÁRIO PARA INSCRIÇÃO DAS EXPERIÊNCIAS (final).docx">Download Modelo.</a>
+            </li>
+            <li class="submissao__texto">
+              Outros anexos relacionados à experiência, tais como fotos e
+              vídeos, poderão ser encaminhados para o e-mail:
+              <a href="mailto:simposiosaudedigital@saude.gov.br">simposiosaudedigital@saude.gov.br</a>
+              (incluir título da Experiência no Assunto do e-mail)
+            </li>
+          </ol>
+          <p class="submissao__texto">
+            <strong>ATENÇÃO: NÃO HAVERÁ PRORROGAÇÃO DE SUBMISSÃO DE TRABALHOS,
+              PORTANTO NÃO PERCA ESSE PRAZO.</strong>
+          </p>
+        </div>
+
+        <button class="submissao__description submissao__acordeao">
+          AVALIAÇÃO DOS TRABALHOS
+        </button>
+        <div class="submissao__painel">
+          <p class="submissao__texto">
+            Todos os trabalhos inscritos serão submetidos inicialmente a uma
+            Comissão Científica composta por avaliadores externos, convidados
+            pela Comissão Organizadora do Simpósio.
+          </p>
+          <p class="submissao__texto">
+            A avaliação será realizada com base nos tópicos especificados no
+            formulário e na qualidade da apresentação, com ênfase na
+            abrangência social e o caráter transformador para o SUS.
+          </p>
+          <p class="submissao__texto">
+            Os três trabalhos de maior destaque serão anunciados na cerimônia
+            de encerramento do evento.
+          </p>
+          <p class="submissao__texto">
+            Como forma de estimular a participação no 1º Simpósio
+            Internacional de Transformação Digital no SUS, todos os
+            participantes inscritos no Congresso poderão votar em uma
+            experiência que considerem exitosa. Assim, haverá também seleção
+            pelo VOTO POPULAR, cujo resultado será conhecido na cerimônia de
+            encerramento do evento.
+          </p>
+        </div>
       </div>
 
-      <section class="submissao container section" id="submissao">
-        <h2 class="submissao__title animate">Submissão de Experiências</h2>
+      <a class="submissao__enviar animate" target="_blank"
+        href="FORMULÁRIO PARA INSCRIÇÃO DAS EXPERIÊNCIAS (final).docx">Download Modelo</a>
+      <a class="btn2 submissao__enviar animate" target="_blank" href="https://forms.gle/8QnMkW24ULgmWjqJ9">Submeter
+        Experiência</a>
+    </section>
 
-        <p class="submissao__description animate">
-          Antes de prosseguir com a submissão do seu trabalho, é fundamental que
-          você leia atentamente as instruções abaixo. A leitura cuidadosa dessas
-          orientações garantirá que sua submissão esteja em conformidade com as
-          expectativas e aumentará suas chances de ser avaliada com sucesso.
-        </p>
-        <p class="submissao__description animate">
-          Caso tenha alguma dúvida sobre as instruções, entre em contato conosco
-          para esclarecimentos adicionais.
-        </p>
-
-        <div class="submissao__normas animate">
-          <button class="submissao__description submissao__acordeao">
-            NORMAS PARA SUBMISSÃO DE EXPERIÊNCIAS EM SAÚDE DIGITAL E TELESSAÚDE
-          </button>
-          <div class="submissao__painel">
-            <p class="submissao__texto">
-              As experiências devem contemplar aplicações do uso da Saúde
-              Digital e Telessaúde no contexto do Sistema Único de Saúde (SUS) e
-              devem ser inscritas em um dos Temas/subtemas abaixo:
-            </p>
-            <ol>
-              <li class="submissao__texto">
-                Telessaúde;
-                <ol>
-                  <li class="submissao__texto">Teleatendimento</li>
-                  <li class="submissao__texto">Telediagnóstico</li>
-                  <li class="submissao__texto">
-                    Prevenção de Doenças e Agravos / Promoção de Saúde
-                  </li>
-                  <li class="submissao__texto">Teleducação Interativa</li>
-                </ol>
-              </li>
-              <li class="submissao__texto">Inovação Pública;</li>
-              <li class="submissao__texto">Monitoramento e Avaliação;</li>
-              <li class="submissao__texto">
-                Sistemas de Informação e Plataformas;
-              </li>
-              <li class="submissao__texto">Desenvolvimento de Aplicativos.</li>
-            </ol>
-            <p class="submissao__texto">
-              A Comissão Científica do 1º Simpósio Internacional de
-              Transformação Digital no SUS irá selecionar uma mostra das
-              experiências submetidas para que seja apresentada durante o
-              Simpósio.
-            </p>
-            <p class="submissao__texto">
-              Os interessados em participar da apresentação oral deverão
-              manifestar interesse no formulário de submissão da proposta,
-              indicando o nome e dados do apresentador(a).
-            </p>
-            <p class="submissao__texto">
-              A apresentação poderá ser realizada na modalidade oral ou pôster
-              com reconhecimento dos trabalhos em destaques.
-            </p>
-            <p class="submissao__texto">
-              Os projetos e experiências submetidas podem ou não apresentar
-              parcerias com Secretarias de Estado da Saúde, Universidades,
-              Centros de Pesquisa e outras organizações públicas ou privadas,
-              dentre outras instituições, desde que seu desenvolvimento tenha
-              ocorrido em parceria com equipes municipais.
-            </p>
-            <p class="submissao__texto">
-              Não há limite de autores ou coautores para cada projeto ou
-              experiência.
-            </p>
-            <p class="submissao__texto">
-              Ao submeter as experiências para o 1º Simpósio Internacional de
-              Transformação Digital no SUS, os autores autorizaram a publicação
-              do material submetido.
-            </p>
-            <p class="submissao__texto">
-              O responsável pela apresentação poderá ser um dos autores do
-              trabalho ou alguém designado pelo gestor da experiência. Para
-              apresentação do trabalho é necessário que pelo menos um dos
-              autores esteja inscrito no Simpósio.
-            </p>
-            <p class="submissao__texto">
-              O prazo para envio dos trabalhos será de
-              <strong>23 de julho de 2023.</strong>
-            </p>
-            <ol>
-              <li class="submissao__texto">
-                Os trabalhos deverão ser submetidos pelo Formulário (clicar no
-                botão abaixo "Submeter Experiência").
-              </li>
-              <li class="submissao__texto">
-                Os trabalhos também deverão ser anexados sob a forma de texto
-                (arquivo em PDF) ao final do formulário conforme modelo a
-                seguir:
-                <a
-                  target="_blank"
-                  href="FORMULÁRIO PARA INSCRIÇÃO DAS EXPERIÊNCIAS (final).docx"
-                  >Download Modelo.</a
-                >
-              </li>
-              <li class="submissao__texto">
-                Outros anexos relacionados à experiência, tais como fotos e
-                vídeos, poderão ser encaminhados para o e-mail:
-                <a href="mailto:simposiosaudedigital@saude.gov.br"
-                  >simposiosaudedigital@saude.gov.br</a
-                >
-                (incluir título da Experiência no Assunto do e-mail)
-              </li>
-            </ol>
-            <p class="submissao__texto">
-              <strong
-                >ATENÇÃO: NÃO HAVERÁ PRORROGAÇÃO DE SUBMISSÃO DE TRABALHOS,
-                PORTANTO NÃO PERCA ESSE PRAZO.</strong
-              >
+    <div class="contato__wrapper">
+      <section class="contato container section" id="contato">
+        <h2 class="contato__title animate">Contate-nos</h2>
+        <div class="contato__content--wrapper">
+          <div class="contato__header--wrapper">
+            <h3 class="contato__subtitle animate">
+              Quer tirar alguma dúvida ou saber mais detalhes do evento?
+            </h3>
+            <hr class="contato__divider animate" />
+            <p class="contato__info animate">
+              Por favor, não hesite em contactar-nos através do nosso email de
+              atendimento.
             </p>
           </div>
-
-          <button class="submissao__description submissao__acordeao">
-            AVALIAÇÃO DOS TRABALHOS
-          </button>
-          <div class="submissao__painel">
-            <p class="submissao__texto">
-              Todos os trabalhos inscritos serão submetidos inicialmente a uma
-              Comissão Científica composta por avaliadores externos, convidados
-              pela Comissão Organizadora do Simpósio.
-            </p>
-            <p class="submissao__texto">
-              A avaliação será realizada com base nos tópicos especificados no
-              formulário e na qualidade da apresentação, com ênfase na
-              abrangência social e o caráter transformador para o SUS.
-            </p>
-            <p class="submissao__texto">
-              Os três trabalhos de maior destaque serão anunciados na cerimônia
-              de encerramento do evento.
-            </p>
-            <p class="submissao__texto">
-              Como forma de estimular a participação no 1º Simpósio
-              Internacional de Transformação Digital no SUS, todos os
-              participantes inscritos no Congresso poderão votar em uma
-              experiência que considerem exitosa. Assim, haverá também seleção
-              pelo VOTO POPULAR, cujo resultado será conhecido na cerimônia de
-              encerramento do evento.
-            </p>
-          </div>
-        </div>
-
-        <a
-          class="submissao__enviar animate"
-          target="_blank"
-          href="FORMULÁRIO PARA INSCRIÇÃO DAS EXPERIÊNCIAS (final).docx"
-          >Download Modelo</a
-        >
-        <a
-          class="btn2 submissao__enviar animate"
-          target="_blank"
-          href="https://forms.gle/8QnMkW24ULgmWjqJ9"
-          >Submeter Experiência</a
-        >
-      </section>
-
-      <div class="contato__wrapper">
-        <section class="contato container section" id="contato">
-          <h2 class="contato__title animate">Contate-nos</h2>
-          <div class="contato__content--wrapper">
-            <div class="contato__header--wrapper">
-              <h3 class="contato__subtitle animate">
-                Quer tirar alguma dúvida ou saber mais detalhes do evento?
-              </h3>
-              <hr class="contato__divider animate" />
-              <p class="contato__info animate">
-                Por favor, não hesite em contactar-nos através do nosso email de
-                atendimento.
-              </p>
-            </div>
-            <div class="contato__content">
-              <ul class="contato__info animate">
-                <!-- <li class="contato__info--item animate">
+          <div class="contato__content">
+            <ul class="contato__info animate">
+              <!-- <li class="contato__info--item animate">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round"
@@ -483,284 +572,221 @@
               <p class="contato__description animate">
                 <a href="tel:+556133156196">+55 61 3315-6196</a>
               </p> -->
-                <li class="contato__info--item">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-6 h-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                    />
-                  </svg>
-                  E-mail
-                </li>
-                <a
-                  class="contato__description animate"
-                  href="mailto:simposiosaudedigital@saude.gov.br"
-                  >simposiosaudedigital@saude.gov.br</a
-                >
-              </ul>
-            </div>
+              <li class="contato__info--item">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+                E-mail
+              </li>
+              <a class="contato__description animate"
+                href="mailto:simposiosaudedigital@saude.gov.br">simposiosaudedigital@saude.gov.br</a>
+            </ul>
           </div>
-        </section>
-      </div>
-
-      <section class="comissao container section" id="comissao">
-        <h2 class="comissao__title animate">Comissão</h2>
-        <p class="comissao__description animate">
-          Apresentamos as Comissões Organizadora e Científica, responsáveis por
-          planejar e coordenar o 1º Simpósio Internacional de Transformação
-          Digital no SUS:
-        </p>
-        <div class="comissao__tabs">
-          <input
-            class="comissao__input"
-            id="tab1"
-            type="radio"
-            name="tabs"
-            checked
-          />
-          <label class="comissao__label" for="tab1"
-            >Comissão Organizadora</label
-          >
-
-          <input class="comissao__input" id="tab2" type="radio" name="tabs" />
-          <label class="comissao__label" for="tab2">Comissão Científica</label>
-
-          <!-- <input class="comissao__input" id="tab3" type="radio" name="tabs">
-        <label class="comissao__label" for="tab3">Instituições</label> -->
-
-          <section class="comissao__section" id="content1">
-            <ol class="comissao__lista">
-              <li class="comissao__lista--item">
-                Ana Estela Haddad (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Adriano Santiago Dias dos Santos (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Camila Huanca (NUTES/FOUSP);
-              </li>
-              <li class="comissao__lista--item">
-                Claudia Meirelles (COSEMS/SP);
-              </li>
-              <li class="comissao__lista--item">
-                Cleinaldo de Almeida Costa (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Cristina Balestrin (SES/SÃO PAULO);
-              </li>
-              <li class="comissao__lista--item">
-                David Xavier da Silva (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Dayse Carneiro (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Deise Garrido (NUTES/FOUSP);
-              </li>
-              <li class="comissao__lista--item">
-                Diogo Demarchi Silva (CONASEMS);
-              </li>
-              <li class="comissao__lista--item">Felipe Ferré (CONASS);</li>
-              <li class="comissao__lista--item">
-                Inês Eugênia Ribeiro da Costa (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                João André Santos de Oliveira (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Jonas Sertorio (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                José Eduardo Bueno de Oliveira (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Kenia Dias de Sousa Picoli (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Manuella Maia Ribeiro (CETIC.BR);
-              </li>
-              <li class="comissao__lista--item">
-                Maria Aparecida da Silva (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Marizélia Leão Moreira (CONASEMS);
-              </li>
-              <li class="comissao__lista--item">
-                Michael Luiz Diana de Oliveira (CONASEMS);
-              </li>
-              <li class="comissao__lista--item">
-                Michelle Louvaes Garcia (HCFMUSP);
-              </li>
-              <li class="comissao__lista--item">
-                Paula Gobi Scudeller (HCFMUSP);
-              </li>
-              <li class="comissao__lista--item">
-                Paula Xavier dos Santos (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Paulo Eduardo Guedes Sellera (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Raquel Adjafre (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Roberta Rubia (SES/SÃO PAULO);
-              </li>
-              <li class="comissao__lista--item">Sandro Terabe (CONASS);</li>
-              <li class="comissao__lista--item">
-                Silvana Gomes Benzecry (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Terciane Alves Gonçalves (SEIDIGI/Ministério da Saúde);
-              </li>
-              <li class="comissao__lista--item">
-                Tiago Bahia Fontana (SEIDIGI/Ministério da Saúde).
-              </li>
-            </ol>
-          </section>
-
-          <section class="comissao__section" id="content2">
-            <ol class="comissao__lista">
-              <li class="comissao__lista--item">
-                Alexandre Chater Taleb (Universidade Federal de Goiás);
-              </li>
-              <li class="comissao__lista--item">
-                Antonio Carlos Onofre de Lira (SBIS);
-              </li>
-              <li class="comissao__lista--item">
-                Antônio José Pereira (HCFMUSP);
-              </li>
-              <li class="comissao__lista--item">Carlos Carvalho (HC/FMUSP);</li>
-              <li class="comissao__lista--item">Chao Lung Wen (ABTms);</li>
-              <li class="comissao__lista--item">
-                Luis Gustavo Kiatake (SBIS);
-              </li>
-              <li class="comissao__lista--item">Luiz Ary Messina (RNP);</li>
-              <li class="comissao__lista--item">
-                Silvana Gomes Benzecry (Ministério da Saúde).
-              </li>
-            </ol>
-          </section>
-
-          <!-- <section class="comissao__section" id="content3">
-          <p><strong>Instituições que compõe a Comissão Organizadora do evento:</strong></p>
-          <ul class="comissao__lista">
-            <li class="comissao__lista--item">Organização Pan-Americana da Saúde (OPAS);</li>
-            <li class="comissao__lista--item">Governo do Estado de São Paulo;</li>
-            <li class="comissao__lista--item">Secretaria de Informação e Saúde Digital (SEIDIGI);</li>
-            <li class="comissao__lista--item">Conselho Nacional de Secretários de Saúde (CONASS);</li>
-            <li class="comissao__lista--item">Conselho Nacional de Secretários Municipais de Saúde (CONASEMS);</li>
-            <li class="comissao__lista--item">Conselho de Secretarias Municipais de Saúde do Estado de São Paulo
-              (COSEMS-SP).</li>
-          </ul>
-        </section> -->
         </div>
       </section>
-
-      <div class="footer__wrapper">
-        <footer class="footer container section" id="rodape">
-          <div class="footer__apoio">
-            <h2 class="footer__title">Apoio</h2>
-            <hr class="footer__divider" />
-            <ul class="footer__icons">
-              <li class="footer__item">
-                <a href="https://www.rnp.br/" target="_blank"
-                  ><img class="footer__item--logo" src="Logo-RNP_RUTE.png"
-                /></a>
-              </li>
-              <!-- <li class="footer__item"><a href="https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/ensino-e-pesquisa/gep-gerencia-de-ensino-e-pesquisa/e-saude/projeto-rute" target="_blank"><img class="footer__item--logo" src="Logo-RUTE.png"></a></li> -->
-              <li class="footer__item">
-                <a href="http://sbis.org.br/" target="_blank"
-                  ><img class="footer__item--logo" src="Logo-SBIS.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a href="https://abtms.org.br/" target="_blank"
-                  ><img class="footer__item--logo" src="Logo-ABTms.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a href="https://www.cosemssp.org.br/" target="_blank"
-                  ><img class="footer__item--logo" src="Logo-COSEMSSP.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a
-                  href="https://ava.conasems.org.br/users/sign_in"
-                  target="_blank"
-                  ><img class="footer__item--logo" src="Logo-CONASEMS.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a href="https://www.conass.org.br/" target="_blank"
-                  ><img class="footer__item--logo" src="Logo-CONASs.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a href="https://www.gov.br/saude/pt-br" target="_blank"
-                  ><img class="footer__item--logo" src="Logo---CNS.png"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__realizacao">
-            <h2 class="footer__title">Realização</h2>
-            <hr class="footer__divider" />
-            <ul class="footer__icons">
-              <li class="footer__item">
-                <a href="https://www.paho.org/pt/brasil" target="_blank"
-                  ><img class="footer__item--logo" src="Logo-OPAS.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a href="http://saude.sp.gov.br/" target="_blank"
-                  ><img class="footer__item--logo" src="Logo---Governo-SP.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a
-                  href="https://www.gov.br/saude/pt-br/composicao/seidigi"
-                  target="_blank"
-                  ><img class="footer__item--logo" src="Logo---SEIDIGI.png"
-                /></a>
-              </li>
-              <li class="footer__item">
-                <a href="https://www.gov.br/saude/pt-br" target="_blank"
-                  ><img
-                    class="footer__item--logo"
-                    src="Assinatura---Governo-Federal.png"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-      <a href="#" class="to-top">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-6 h-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M4.5 15.75l7.5-7.5 7.5 7.5"
-          />
-        </svg>
-      </a>
     </div>
 
-    <script type="module" src="./src/main.js"></script>
-  </body>
+    <section class="comissao container section" id="comissao">
+      <h2 class="comissao__title animate">Comissão</h2>
+      <p class="comissao__description animate">
+        Apresentamos as Comissões Organizadora e Científica, responsáveis por
+        planejar e coordenar o 1º Simpósio Internacional de Transformação
+        Digital no SUS:
+      </p>
+      <div class="comissao__tabs">
+        <input class="comissao__input" id="tab1" type="radio" name="tabs" checked />
+        <label class="comissao__label" for="tab1">Comissão Organizadora</label>
+
+        <input class="comissao__input" id="tab2" type="radio" name="tabs" />
+        <label class="comissao__label" for="tab2">Comissão Científica</label>
+
+        <section class="comissao__section" id="content1">
+          <ol class="comissao__lista">
+            <li class="comissao__lista--item">
+              Ana Estela Haddad (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Adriano Santiago Dias dos Santos (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Camila Huanca (NUTES/FOUSP);
+            </li>
+            <li class="comissao__lista--item">
+              Claudia Meirelles (COSEMS/SP);
+            </li>
+            <li class="comissao__lista--item">
+              Cleinaldo de Almeida Costa (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Cristina Balestrin (SES/SÃO PAULO);
+            </li>
+            <li class="comissao__lista--item">
+              David Xavier da Silva (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Dayse Carneiro (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Deise Garrido (NUTES/FOUSP);
+            </li>
+            <li class="comissao__lista--item">
+              Diogo Demarchi Silva (CONASEMS);
+            </li>
+            <li class="comissao__lista--item">Felipe Ferré (CONASS);</li>
+            <li class="comissao__lista--item">
+              Inês Eugênia Ribeiro da Costa (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              João André Santos de Oliveira (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Jonas Sertorio (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              José Eduardo Bueno de Oliveira (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Kenia Dias de Sousa Picoli (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Manuella Maia Ribeiro (CETIC.BR);
+            </li>
+            <li class="comissao__lista--item">
+              Maria Aparecida da Silva (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Marizélia Leão Moreira (CONASEMS);
+            </li>
+            <li class="comissao__lista--item">
+              Michael Luiz Diana de Oliveira (CONASEMS);
+            </li>
+            <li class="comissao__lista--item">
+              Michelle Louvaes Garcia (HCFMUSP);
+            </li>
+            <li class="comissao__lista--item">
+              Paula Gobi Scudeller (HCFMUSP);
+            </li>
+            <li class="comissao__lista--item">
+              Paula Xavier dos Santos (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Paulo Eduardo Guedes Sellera (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Raquel Adjafre (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Roberta Rubia (SES/SÃO PAULO);
+            </li>
+            <li class="comissao__lista--item">Sandro Terabe (CONASS);</li>
+            <li class="comissao__lista--item">
+              Silvana Gomes Benzecry (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Terciane Alves Gonçalves (SEIDIGI/Ministério da Saúde);
+            </li>
+            <li class="comissao__lista--item">
+              Tiago Bahia Fontana (SEIDIGI/Ministério da Saúde).
+            </li>
+          </ol>
+        </section>
+
+        <section class="comissao__section" id="content2">
+          <ol class="comissao__lista">
+            <li class="comissao__lista--item">
+              Alexandre Chater Taleb (Universidade Federal de Goiás);
+            </li>
+            <li class="comissao__lista--item">
+              Antonio Carlos Onofre de Lira (SBIS);
+            </li>
+            <li class="comissao__lista--item">
+              Antônio José Pereira (HCFMUSP);
+            </li>
+            <li class="comissao__lista--item">Carlos Carvalho (HC/FMUSP);</li>
+            <li class="comissao__lista--item">Chao Lung Wen (ABTms);</li>
+            <li class="comissao__lista--item">
+              Luis Gustavo Kiatake (SBIS);
+            </li>
+            <li class="comissao__lista--item">Luiz Ary Messina (RNP);</li>
+            <li class="comissao__lista--item">
+              Silvana Gomes Benzecry (Ministério da Saúde).
+            </li>
+          </ol>
+        </section>
+      </div>
+    </section>
+
+    <div class="footer__wrapper">
+      <footer class="footer container section" id="rodape">
+        <div class="footer__apoio">
+          <h2 class="footer__title">Apoio</h2>
+          <hr class="footer__divider" />
+          <ul class="footer__icons">
+            <li class="footer__item">
+              <a href="https://www.rnp.br/" target="_blank"><img class="footer__item--logo"
+                  src="Logo-RNP_RUTE.png" /></a>
+            </li>
+            <!-- <li class="footer__item"><a href="https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-sul/husm-ufsm/ensino-e-pesquisa/gep-gerencia-de-ensino-e-pesquisa/e-saude/projeto-rute" target="_blank"><img class="footer__item--logo" src="Logo-RUTE.png"></a></li> -->
+            <li class="footer__item">
+              <a href="http://sbis.org.br/" target="_blank"><img class="footer__item--logo" src="Logo-SBIS.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://abtms.org.br/" target="_blank"><img class="footer__item--logo"
+                  src="Logo-ABTms.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.cosemssp.org.br/" target="_blank"><img class="footer__item--logo"
+                  src="Logo-COSEMSSP.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://ava.conasems.org.br/users/sign_in" target="_blank"><img class="footer__item--logo"
+                  src="Logo-CONASEMS.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.conass.org.br/" target="_blank"><img class="footer__item--logo"
+                  src="Logo-CONASs.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.gov.br/saude/pt-br" target="_blank"><img class="footer__item--logo"
+                  src="Logo---CNS.png" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__realizacao">
+          <h2 class="footer__title">Realização</h2>
+          <hr class="footer__divider" />
+          <ul class="footer__icons">
+            <li class="footer__item">
+              <a href="https://www.paho.org/pt/brasil" target="_blank"><img class="footer__item--logo"
+                  src="Logo-OPAS.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="http://saude.sp.gov.br/" target="_blank"><img class="footer__item--logo"
+                  src="Logo---Governo-SP.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.gov.br/saude/pt-br/composicao/seidigi" target="_blank"><img
+                  class="footer__item--logo" src="Logo---SEIDIGI.png" /></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://www.gov.br/saude/pt-br" target="_blank"><img class="footer__item--logo"
+                  src="Assinatura---Governo-Federal.png" /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <a href="#" class="to-top">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+      </svg>
+    </a>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
 </html>
