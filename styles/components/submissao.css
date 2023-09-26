@@ -53,9 +53,11 @@
 }
 
 .submissao__texto {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+
     font-size: var(--size-base);
+    text-align: left;
+    align-self: flex-start;
+
 }
 .submissao__acordeao--ativo,
 .submissao__acordeao:hover {
