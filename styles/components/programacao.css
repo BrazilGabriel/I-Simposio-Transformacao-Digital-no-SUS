@@ -183,6 +183,17 @@
     transition: max-height 0.2s ease-out;
 }
 
+.programacao__img--wrapper {
+    margin: 0 auto;
+    max-width: 18rem;
+    max-width: 64rem;
+
+}
+
+.programacao__img{
+    border-radius: 0.8em;
+    margin: 0 auto;
+ }
 
 
  /* xs (gap:1.5rem)*/
